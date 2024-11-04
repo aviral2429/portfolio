@@ -1,0 +1,211 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Aviral's Portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			.header-photo {
+				position: relative;
+				width: 100%;
+				height: 800px;
+				background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('./src/prof.jpg');
+				background-size: cover;
+				background-position: center;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				margin-bottom: 2rem;
+			}
+			
+			.profile-photo {
+				width: 200px;
+				height: 200px;
+				border-radius: 50%;
+				border: 5px solid #ffffff;
+				margin-bottom: 1rem;
+			}
+			
+			.certificates-section {
+				padding: 4rem 0;
+				background: #f5f5f5;
+			}
+			
+			.certificate-card {
+				background: white;
+				padding: 2rem;
+				margin: 1rem;
+				border-radius: 8px;
+				box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+				transition: transform 0.3s ease;
+			}
+			
+			.certificate-card:hover {
+				transform: translateY(-5px);
+			}
+
+			.certificates-section {
+    padding: 4rem 0;
+    background: #f5f5f5;
+}
+
+.certificate-card {
+    background: white;
+    padding: 1.5rem;
+    margin: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    width: 300px; /* Fixed width */
+}
+
+.certificate-card:hover {
+    transform: translateY(-5px);
+}
+
+.certificate-card h3 {
+    margin: 0 0 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.certificate-card p {
+    margin: 0 0 1rem 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.certificate-card .img-container {
+    width: 100%;
+    height: 200px; /* Fixed height */
+    overflow: hidden;
+    border-radius: 4px;
+    position: relative;
+}
+
+.certificate-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain; /* This will maintain aspect ratio */
+
+}
+		</style>
+	</head>
+	<body class="is-preload">
+		<!-- Wrapper -->
+		<div id="wrapper" class="fade-in">
+
+			<!-- Header Photo Section -->
+			<div class="header-photo">
+				<div style="text-align: center;">
+					<!-- <img src="/api/placeholder/200/200" alt="Profile Photo" class="profile-photo"> -->
+					<!-- <h1 style="color: white;">Hello! This is Aviral</h1> -->
+				</div>
+			</div>
+
+			<!-- Intro -->
+			<div id="intro">
+				<h1>Hello! This is Aviral</h1>
+				<p>"Tech enthusiast with expertise in C++, Python, and front-end development, and a skilled orator with 
+					a talent for clear communication and effective leadership."</p>
+				<ul class="actions">
+					<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+				</ul>
+			</div>
+
+			<!-- Header -->
+			<header id="header">
+				<a href="index.html" class="logo">portfolio</a>
+			</header>
+
+			<!-- Nav -->
+			<nav id="nav">
+				<ul class="links">
+					<li class="active"><a href="index.html">Academic and Professional overview</a></li>
+				</ul>
+				<ul class="icons">
+					<li><a href="https://github.com/aviral2429" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+					<li><a href="https://linkedin.com/in/aviral-pandey-b9b846177" class="icon brands fa-linkedin"><span class="label">Linkedin</span></a></li>
+				</ul>
+			</nav>
+
+			<!-- Main -->
+			<div id="main">
+				<!-- Featured Post -->
+				<article class="post featured">
+					<header class="major">
+						<h2>Technical and academic overview</h2>
+						<p>"Versatile developer with a strong foundation in C++, Python, and front-end technologies, specializing in the development of robust, dynamic applications, 
+							and skilled in public speaking to effectively communicate ideas and lead teams."</p>
+					</header>
+				</article>
+
+				<!-- Education -->
+				<section class="posts">
+					<article>
+						<header>
+							<h2>Graduated from Heeralal Public School</h2>
+						</header>
+						<p>Completed 10+2 from Heeralal Public School, New Delhi</p>
+					</article>
+					<article>
+						<header>
+							<h2>Joined SRM Institute of Science and Technology, Chennai</h2>
+						</header>
+						<p>Joined SRM Institute of Science and Technology, Chennai for B.Tech in Computer Science and Engineering</p>
+					</article>
+				</section>
+
+				<!-- Certificates Section -->
+				<section class="certificates-section">
+					<header class="major">
+						<h2 style="text-align: center; margin-bottom: 3rem;">Certifications</h2>
+					</header>
+					
+					<div style="display: flex; justify-content: space-around; flex-wrap: wrap;">
+						<div class="certificate-card">
+							<h3>Certificate 1</h3>
+							<p>C++ Programming Certification</p>
+							<img src="./src/cert1.png" alt="Certificate 1">
+						</div>
+						
+						<div class="certificate-card">
+							<h3>Certificate 2</h3>
+							<p>Python Development Certification</p>
+							<img src="./src/cert2.png" alt="Certificate 2">
+						</div>
+						
+						<div class="certificate-card">
+							<h3>Certificate 3</h3>
+							<p>AICTE Virtual Internship - Google AI/ML</p>
+							<img src="./src/cert3.png" alt="Certificate 3">
+						</div>
+					</div>
+				</section>
+
+				<!-- Skills Section -->
+				<article class="post featured">
+					<header class="major">
+						<h2>Skills and achievements</h2>
+						<p>Certified in C++, C, and Python, with hands-on experience from an AICTE virtual internship in Google AI-ML. Skilled in organizing and leading events for various clubs, participating in hackathons and coding competitions, and leveraging strong communication skills in anchoring and event management roles.</p>
+					</header>
+				</article>
+			</div>
+
+			<!-- Footer -->
+			<footer id="footer">
+				<!-- Your existing footer content -->
+			</footer>
+		</div>
+
+		<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+	</body>
+</html>
